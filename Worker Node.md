@@ -1,0 +1,1 @@
+A worker node is defined by the installation of the container runtime. Also it has the `kubelet` agent which is responsible to interact with the [[Master Node]].
