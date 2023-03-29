@@ -1,0 +1,1 @@
+Analog to the [[Sidecar]] pattern, let's assume an application with multiple applications generating logs in different formats. It would be hard to process the various formats on the central logging server. Before sending the logs to a central server, we would like to convert the logs to a common format in a separated container in the [[POD]].

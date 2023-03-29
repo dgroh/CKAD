@@ -23,7 +23,7 @@ They always container these top level fields. (`apiVersion`, `kind`, `metadata` 
 This is the version of the Kubernenets API to create an object. Depending on what we are creating you must use the right api version.
 | Kind       | Version |
 | ---------- | ------- |
-| POD        | v1      |
+| Pod        | v1      |
 | Service    | v1      |
 | ReplicaSet | apps/v1 |
 | Deployment | apps/v1 |

@@ -7,3 +7,19 @@ It's possible to add more PODs to de node to share load or even to add other nod
 POD has a one-to-one relationship with a container. To scale up, you create new POD, to scale down, you delete an existing POD.
 
 It's possible to have multiple containers within the same POD. For example a helper container. In this case both containers can communicate with each other via localhost as they share the same network.
+
+## YAML
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+```

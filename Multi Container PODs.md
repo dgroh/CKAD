@@ -1,0 +1,2 @@
+There are different patterns of multi container [[POD]]s like [[Ambassador]], [[Adapter]] and [[Sidecar]].
+Multi container PODs share the same lifecylce - they are created together and destroyed together - they also share same ntwork and same storage volumes. This way there is no need to stabilish volume sharing or services between the PODs to create communication.

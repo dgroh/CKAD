@@ -14,7 +14,7 @@ The agent that runs on each node in the cluster. It ensures that the containers 
 
 The underline software to run the container, for examploe: `docker` 
 
-## Controller
+## [[Controller]]
 
 Brain behind orchestration. Responsible for noticing and responding when node containers or endpoints go down. 
 

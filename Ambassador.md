@@ -1,0 +1,1 @@
+The application communicates with different databases instances on different stages, for example: **Dev**, **Test** and **Prod**. You must be able to modify this connectivity in your application code depending on the environment you are deployment your application to. Here you would outsource such logic to a separate container in your [[POD]].

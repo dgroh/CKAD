@@ -1,0 +1,1 @@
+Deploying a log agent alongside a webserver to collect logs and forward them to a central log server.
