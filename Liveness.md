@@ -1,0 +1,1 @@
+Indicates if the container is operating. If so, no action is taken. If not, the kubelet kills and restarts the container.
