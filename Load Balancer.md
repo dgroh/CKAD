@@ -1,0 +1,1 @@
+It provisions a Load Balancer for our application in supported cloud providers. It distributes loads between servers for example in a frontend tier.
