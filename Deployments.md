@@ -36,3 +36,23 @@ The main difference between ReplicaSet and Deployment
 >   As long as you don't have a rollout in progress, a deployment will result in a single replicaset with the replication factor managed by the deployment.
 >   
 >   Always use a Deployment and not a bare ReplicaSet.
+
+### Rollback
+
+It is possible to rollback a Deployment to an earlier revision by running the following command:
+
+```bash
+kubectl rollout undo deployment/my-deployment-name
+```
+
+#### Useful deployment commands
+
+```
+kubectl create -f deployment-definition.yaml
+kubectl get deployments
+kubectl apply -f deployment-definition.yaml
+kubectl set image deployment/myapp-deployment nginx=nginx:1.9.1
+kubectl rollout status deployment/my-deployment-name
+kubectl rollout history deployment/my-deployment-name
+kubectl rollout undo deployment/my-deployment-name
+```
